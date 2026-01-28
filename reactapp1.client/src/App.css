@@ -1,11 +1,14 @@
-﻿#root {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
-}
-
-th, td {
-    padding-left: 1rem;
-    padding-right: 1rem;
+﻿/* Target the class name we defined in App.tsx */
+.app-container {
+    /* 1. Size & Spacing */
+    max-width: 400px; /* Don't let it get wider than 400 pixels */
+    margin: 50px auto; /* Top/Bottom=50px, Left/Right=Auto (Centers it!) */
+    padding: 30px; /* Space INSIDE the box (like Padding in XAML) */
+    /* 2. Appearance */
+    background-color: white; /* Background color */
+    border-radius: 15px; /* Rounded corners (CornerRadius in XAML) */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* A nice drop shadow */
+    /* 3. Text Alignment */
+    text-align: center; /* Centers text horizontally */
+    font-family: Arial, sans-serif;
 }
