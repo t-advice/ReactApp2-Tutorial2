@@ -1,5 +1,33 @@
-﻿/* Target the class name we defined in App.tsx */
+﻿.login-btn {
+    background-color: #0078d4; /* Microsoft Blue */
+    color: white; /* Text color */
+    border: none; /* Remove default grey border */
+    padding: 10px 20px; /* Make it bigger */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px;
+    cursor: pointer; /* Changes mouse cursor to a hand */
+    margin-top: 15px;
+}
+
+    /* Optional: Change color when hovering */
+    .login-btn:hover {
+        background-color: #005a9e; /* Darker blue on hover */
+    }
+
+
+
+
+/* Target the actual body of the HTML page */
+body {
+    background-color: mediumslateblue; /* Light grey background */
+    margin: 0; /* Remove default browser margins */
+}
+
+
+
+/* Target the class name we defined in App.tsx */
 .app-container {
+   
     /* 1. Size & Spacing */
     max-width: 400px; /* Don't let it get wider than 400 pixels */
     margin: 50px auto; /* Top/Bottom=50px, Left/Right=Auto (Centers it!) */
